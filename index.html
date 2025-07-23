@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Backrooms SCP | Discord</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <style>
+    :root {
+      --neon: #00f7ff;
+      --bg-dark: #0e0e1a;
+      --glass: rgba(255, 255, 255, 0.05);
+      --border-glow: 0 0 12px var(--neon);
+    }
+    * {
+      margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background-color: var(--bg-dark);
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header {
+      padding: 80px 20px 60px;
+      text-align: center;
+      backdrop-filter: blur(10px);
+    }
+    h1 {
+      font-size: 3rem;
+      color: var(--neon);
+      text-shadow: 0 0 20px var(--neon);
+    }
+    p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 20px auto;
+      color: #ccc;
+    }
+    .btn {
+      margin-top: 20px;
+      background-color: var(--glass);
+      border: 2px solid var(--neon);
+      color: var(--neon);
+      padding: 14px 28px;
+      font-size: 1rem;
+      border-radius: 12px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: var(--border-glow);
+    }
+    .btn:hover {
+      background-color: var(--neon);
+      color: #000;
+      transform: scale(1.05);
+    }
+    .btn.small {
+      font-size: 0.9rem;
+      padding: 10px 18px;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: var(--neon);
+      text-shadow: 0 0 10px var(--neon);
+    }
+    ul {
+      list-style: disc;
+      padding-left: 40px;
+      color: #bbb;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 12px;
+      margin-top: 30px;
+      box-shadow: 0 0 20px var(--neon);
+    }
+    .video-container iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    .news-card {
+      background: var(--glass);
+      border: 1px solid var(--neon);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 15px var(--neon);
+    }
+    #toTop {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background: var(--neon);
+      color: #000;
+      padding: 14px;
+      width: 48px;
+      height: 48px;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 20px;
+      display: none;
+      z-index: 1000;
+      box-shadow: 0 0 12px var(--neon);
+    }
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      color: #666;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <header id="top" data-aos="fade-down">
+    <h1>Backrooms SCP</h1>
+    <p>Официальный сервер Backrooms SCP. Обсуждения, поддержка, новости и анонсы разработки проектов, а также прямое общение с командой проекта.</p>
+    <a href="https://discord.gg/DmVgnf6J6j" class="btn" target="_blank">Discord сервер</a>
+  </header>
+
+  <section data-aos="fade-up">
+    <h2>О нашем сервере:</h2>
+    <ul>
+      <li>Дружелюбное сообщество</li>
+      <li>Быстрый отклик и помощь</li>
+      <li>Квалифицированная модерация</li>
+    </ul>
+  </section>
+
+  <section data-aos="fade-up">
+    <h2>Последние новости</h2>
+
+    <div class="news-card">
+      <h3>Наша группа в Roblox теперь открыта!</h3>
+      <p>
+         Рады сообщить, что мы запустили нашу группу в Роблоксе! Теперь у нас есть центральное место для всех наших игр и мероприятий. Присоединяйтесь к нам, чтобы быть в курсе всех новостей и эксклюзивных возможностей. В нашей группе также есть магазин с уникальными вещами и фан футболками, чтобы вы могли поддержать нас и сделать свою коллекцию больше. Будем рады видеть вас в нашем сообществе!
+        Присоединяйтесь:
+        <a href="https://www.roblox.com/groups/34128241/Backrooms-SCP-OFFICIAL#!/about" target="_blank" style="color:#00f7ff;">Ссылка на группу</a>.
+      </p>
+    </div>
+
+    <div class="news-card">
+      <h3>Backrooms SCP: пауза в разработке</h3>
+      <p>
+        Сейчас мы временно приостановили работу над Backrooms SCP и сосредоточены на проекте School №37. Это не навсегда — мы обязательно вернёмся.
+      </p>
+    </div>
+
+    <div class="news-card">
+      <h3>Обновление School №37 — новое окружение и системы</h3>
+      <p>
+        Вышло масштабное обновление для School №37. Добавлены новые дома, дороги, магазин, а также система минут и обновлённая модерация.
+      </p>
+      <button class="btn small" onclick="document.getElementById('schoolDetails').style.display = 'block'; this.style.display='none'">Читать дальше</button>
+      <div id="schoolDetails" style="display:none; margin-top:20px; color:#bbb;">
+        <h4>Здания</h4>
+        <ul>
+          <li>Новые многоэтажные дома</li>
+          <li>Фасад школы перекрашен со стороны спортзала</li>
+          <li>Рекламные щиты и плакаты в магазине</li>
+          <li>Киоск с шаурмой возле остановки</li>
+          <li>Добавлена автобусная остановка</li>
+          <li>Уличные фонари и новая асфальтированная дорога</li>
+          <li>Обновлён забор и столовая с прилавками</li>
+          <li>Бета-доска с возможностью писать текст</li>
+        </ul>
+        <h4>Новые системы</h4>
+        <ul>
+          <li>Система минут — открой роли за время в игре</li>
+          <li>Работа в магазине (перетаскивание коробок)</li>
+        </ul>
+        <h4>Модерация</h4>
+        <ul>
+          <li>Улучшенная античит система (БЕТА)</li>
+          <li>Обновлённая система банов</li>
+        </ul>
+        <p><a href="https://www.roblox.com/games/8645830278/school-37" target="_blank" style="color:#00f7ff;">Ссылка на игру</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Backrooms SCP. Официальный проект Roblox.
+  </footer>
+
+  <button id="toTop" onclick="scrollToTop()">↑</button>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000 });
+    const toTopBtn = document.getElementById("toTop");
+    window.onscroll = () => {
+      toTopBtn.style.display = window.scrollY > 300 ? "block" : "none";
+    };
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  </script>
+</body>
+</html>
