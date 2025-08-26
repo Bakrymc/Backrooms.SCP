@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bakrymc.github.io/Backrooms.SCP/sitemap.xml
